@@ -17,7 +17,4 @@ public class Page {
     private Integer current;
     private Integer size;
     private Integer total;
-    List<Integer> list;
-    List<User> userList;
-    List<UserExtends> userExtendsList;
 }

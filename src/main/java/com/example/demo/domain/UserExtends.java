@@ -15,9 +15,8 @@ public class UserExtends extends User {
     @Override
     public String toString() {
         return "UserExtends{" +
-                "nickname='" + nickname + '\'' + "User{" +
-                "username='" + super.getUsername() + '\'' +
-                ", password=" + super.getPassword() +
+                "nickname='" + nickname + '\'' +
+                ", user=" + super.toString() +
                 '}';
     }
 }

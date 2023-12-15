@@ -10,11 +10,6 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() {
-        Long i = 1L;
-
-        ConversionService conversion = DefaultConversionService.getSharedInstance();
-        Integer convert = conversion.convert(i, Integer.TYPE);
-        System.out.println(i.getClass());
     }
 
 }

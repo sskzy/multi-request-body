@@ -12,13 +12,9 @@ import java.lang.annotation.Target;
 @Target(ElementType.PARAMETER)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MultiRequestBody {
-    /**
-     * 解析时用到的 JSON的 key
-     */
+    /** 解析json的key */
     String value() default "";
 
-    /**
-     * 是否必须出现的参数
-     */
+    /** 是否必填参数 */
     boolean required() default true;
 }
